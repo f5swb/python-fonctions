@@ -1,0 +1,11 @@
+import locale
+locale.setlocale(locale.LC_TIME,'')
+ 
+import time
+print time.strftime('%A %d/%m/%Y %H:%M:%S')
+
+  text = time.strftime("%A")
+    draw.text((0, 0), text, font=font, fill=255)
+    text = time.strftime("%e %b %Y")
+    draw.text((0, 14), text, font=font, fill=255)
+    text = time.strftime("%X")
